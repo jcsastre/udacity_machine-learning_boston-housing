@@ -1,31 +1,21 @@
-# Project 1: Model Evaluation & Validation
-## Predicting Boston Housing Prices
+# Boston-House-Pricing-Prediction
 
-### Install
+<b>This Project Has Been Confirmed As Successful By A Udacity Reviewer.</b>
 
-This project requires **Python 2.7** and the following Python libraries installed:
+<h3> What I Did </h3>
 
-- [NumPy](http://www.numpy.org/)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+In this project, I applied basic machine learning concepts on data collected for housing prices in the Boston, Massachusetts area to predict the selling price of a new home. I first used the NumPy libary to analyze the data to obtain important features and descriptive statistics about the dataset. Next, I split the data into testing and training subsets, and determine a suitable performance metric for this problem. I analyzed performance graphs for a learning algorithm with varying parameters and training set sizes. Finally, I tested this model on a new sample and compare the predicted selling price to my statistics. The result was less than one standard deviation away from the mean.
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+<h3> What I Learned </h3>
 
-Udacity recommends our students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+From this project I was acquainted to working with datasets in Python and applying basic machine learning techniques using NumPy and Scikit-Learn.
 
-### Code
+Things I learned from this project:
 
-Template code is provided in the `boston_housing.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project.
+- How to use NumPy to investigate the latent features of a dataset.
+- How to analyze various learning performance plots for variance and bias.
+- How to determine the best-guess model for predictions from unseen data.
+- How to evaluate a model’s performance on unseen data using previous data.
+- Model fitting, data train & test split, cross-validation, & parameter optimization with grid search.
 
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
-
-```ipython notebook boston_housing.ipynb```  
-```jupyter notebook boston_housing.ipynb```
-
-This will open the iPython Notebook software and project file in your browser.
-
-### Data
-
-The dataset used in this project is included with the scikit-learn library ([`sklearn.datasets.load_boston`](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html#sklearn.datasets.load_boston)). You do not have to download it separately. You can find more information on this dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing) page.
+[comment]: <> (![alt text](screenshots/graphexample.png "Description goes here"))

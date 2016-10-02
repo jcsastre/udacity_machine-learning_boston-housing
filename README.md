@@ -1,4 +1,6 @@
-# Boston-House-Pricing-Prediction
+# Predicting Boston Housing Prices
+
+Project 1 from [Udacity's Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009)
 
 <b>This Project Has Been Confirmed As Successful By A Udacity Reviewer.</b>
 
@@ -17,5 +19,3 @@ Things I learned from this project:
 - How to determine the best-guess model for predictions from unseen data.
 - How to evaluate a model’s performance on unseen data using previous data.
 - Model fitting, data train & test split, cross-validation, & parameter optimization with grid search.
-
-[comment]: <> (![alt text](screenshots/graphexample.png "Description goes here"))

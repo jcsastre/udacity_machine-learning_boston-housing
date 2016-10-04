@@ -1,11 +1,9 @@
 
-
-# Predicting Boston Housing Prices
-
 Project 1 from [Udacity's Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009)
 
 <b>This Project Has Been Confirmed As Successful By A Udacity Reviewer.</b>
 
+# Predicting Boston Housing Prices
 
 # Intro
 
@@ -124,7 +122,7 @@ As a reminder, we are using three features from the Boston housing dataset: `'RM
 _Using your intuition, for each of the three features above, do you think that an increase in the value of that feature would lead to an **increase** in the value of `'MEDV'` or a **decrease** in the value of `'MEDV'`? Justify your answer for each._  
 **Hint:** Would you expect a home that has an `'RM'` value of 6 be worth more or less than a home that has an `'RM'` value of 7?
 
-**Answer: **
+**Answer:**
 
 Increase of `'RM'` leads to a **increase** of `'MEDV'`, because from a `'RM'` we can infer that this house is located in a good neighborhood.
 
@@ -212,7 +210,7 @@ print "Training and testing split was successful."
 *What is the benefit to splitting a dataset into some ratio of training and testing subsets for a learning algorithm?*  
 **Hint:** What could go wrong with not having a way to test your model?
 
-**Answer: ** 
+**Answer:** 
 
 Using all the data for training purposes has two main problems:
 
@@ -238,14 +236,14 @@ vs.ModelLearning(features, prices)
 ```
 
 
-![png](output_21_0.png)
+![png](output_19_0.png)
 
 
 ### Question 4 - Learning the Data
 *Choose one of the graphs above and state the maximum depth for the model. What happens to the score of the training curve as more training points are added? What about the testing curve? Would having more training points benefit the model?*  
 **Hint:** Are the learning curves converging to particular scores?
 
-**Answer: **
+**Answer:**
 
 I choose the first graph, with `max_depth=1`.
 
@@ -266,14 +264,14 @@ vs.ModelComplexity(X_train, y_train)
 ```
 
 
-![png](output_25_0.png)
+![png](output_23_0.png)
 
 
 ### Question 5 - Bias-Variance Tradeoff
 *When the model is trained with a maximum depth of 1, does the model suffer from high bias or from high variance? How about when the model is trained with a maximum depth of 10? What visual cues in the graph justify your conclusions?*  
 **Hint:** How do you know when a model is suffering from high bias or high variance?
 
-**Answer: **
+**Answer:**
 
 With maximum depth of 1 the model suffers of high bias, because the curves a very close but at a very low score.
 
@@ -282,7 +280,7 @@ With maximum depth of 10 the model suffer of high variance, because there is a l
 ### Question 6 - Best-Guess Optimal Model
 *Which maximum depth do you think results in a model that best generalizes to unseen data? What intuition lead you to this answer?*
 
-**Answer: **
+**Answer:**
 
 It seems that `max_depth=4` is the best option, because it has the best score for the testing data.
 
@@ -294,7 +292,7 @@ In this final section of the project, you will construct a model and make a pred
 ### Question 7 - Grid Search
 *What is the grid search technique and how it can be applied to optimize a learning algorithm?*
 
-**Answer: **
+**Answer:**
 
 Learn algorithms accept input parameters that can't be tuned as result of the learning process, these parameters are also known as hyperparameters.
 
@@ -306,7 +304,7 @@ For instance, for this project we will develop a tree decission model based on a
 *What is the k-fold cross-validation training technique? What benefit does this technique provide for grid search when optimizing a model?*  
 **Hint:** Much like the reasoning behind having a testing set, what could go wrong with using grid search without a cross-validated set?
 
-**Answer: **
+**Answer:**
 
 ** What is the k-fold cross-validation training technique? **
 
@@ -429,7 +427,7 @@ for i, price in enumerate(reg.predict(client_data)):
     Predicted selling price for Client 3's home: $941,220.00
     
 
-**Answer: **
+**Answer:**
 
 Suggested price por Client 3 is near the maximum price from the Data exploration section. This makes sense, as the poverty level is really low, has the best student-teacher ratio, and has a lot of rooms.
 

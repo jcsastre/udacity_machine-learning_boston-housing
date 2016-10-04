@@ -124,15 +124,13 @@ As a reminder, we are using three features from the Boston housing dataset: `'RM
 _Using your intuition, for each of the three features above, do you think that an increase in the value of that feature would lead to an **increase** in the value of `'MEDV'` or a **decrease** in the value of `'MEDV'`? Justify your answer for each._  
 **Hint:** Would you expect a home that has an `'RM'` value of 6 be worth more or less than a home that has an `'RM'` value of 7?
 
-# **Answer: **
+**Answer: **
 
 Increase of `'RM'` leads to a **increase** of `'MEDV'`, because from a `'RM'` we can infer that this house is located in a good neighborhood.
 
 Increase of `'LSTAT'` leads to a **decrease** of `'MEDV'`. Neighborhoods with lower percentage on "lower class" have higher prices than neighborhoods with higher percentage on "lower class".
 
 Increase of `'PTRATIO'` leads to a **decrease** of `'MEDV'`. This is because education quality gets worse as the number of students per teacher increases.
-
-----
 
 ## Developing a Model
 In this second section of the project, you will develop the tools and techniques necessary for a model to make a prediction. Being able to make accurate evaluations of each model's performance through the use of these tools and techniques helps to greatly reinforce the confidence in your predictions.
@@ -240,7 +238,7 @@ vs.ModelLearning(features, prices)
 ```
 
 
-![png](output_20_0.png)
+![png](output_21_0.png)
 
 
 ### Question 4 - Learning the Data
@@ -268,7 +266,7 @@ vs.ModelComplexity(X_train, y_train)
 ```
 
 
-![png](output_24_0.png)
+![png](output_25_0.png)
 
 
 ### Question 5 - Bias-Variance Tradeoff
